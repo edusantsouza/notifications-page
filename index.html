@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet" />
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="notification_header">
+      <h2>Notifications <span class="notification_number">3</span></h2>
+      <p class="mark_all">Mark all as read</p>
+    </section>
+    <ul class="notification_list">
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-mark-webber.webp" alt="avatar" />
+        <div>
+          <p class="notification_content">
+            <span> Mark Webber </span> reacted to your recent post
+            <span> My first tournament today!</span>
+          </p>
+
+          <p class="time">1m ago</p>
+        </div>
+        <div class="marker"></div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-angela-gray.webp" alt="avatar" />
+        <div>
+          <p class="notification_content">
+            <span> Angela Gray </span> followed you
+          </p>
+          <p class="time">5m ago</p>
+        </div>
+        <div class="marker"></div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-jacob-thompson.webp" alt="avatar" />
+        <div>
+          <p class="notification_content">
+            <span> Jacob Thompson </span> has joined your group
+            <span>Chess Club</span>
+          </p>
+          <p class="time">5 days ago</p>
+        </div>
+        <div class="marker"></div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="avatar" />
+        <div>
+          <aside>
+            <p class="notification_content">
+              <span> Rizky Hasanuddin </span> sent you a private message
+            </p>
+            <div class="marker"></div>
+          </aside>
+          <p class="time">5 days ago</p>
+          <div class="message">
+            Hello, thanks for setting up the Chess Club. I've been a member
+            for a few weeks now and I'm already having lots of fun and
+            improving my game
+          </div>
+
+        </div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-kimberly-smith.webp" alt="avatar" />
+        <div>
+          <p class="notification_content">
+            <span> Kimberly Smith </span> commented on your picture
+          </p>
+          <p class="time">1 week ago</p>
+        </div>
+        <div class="marker"></div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-nathan-peterson.webp" alt="avatar" />
+        <div>
+          <aside>
+            <p class="notification_content">
+              <span> Nathan Peterson </span> reacted to your recent post
+              <span> 5 end-game strategies to increase your win rate</span>
+            </p>
+            <div class="marker"></div>
+          </aside>
+          <p class="time">2 weeks ago</p>
+        </div>
+      </li>
+
+      <li class="list_item unread">
+        <img src="/assets/images/avatar-anna-kim.webp" alt="avatar" />
+        <div>
+          <p class="notification_content">
+            <span> Anna Kim </span> left the group <span> Chess Club </span>
+          </p>
+          <p class="time">2 weeks ago</p>
+        </div>
+        <div class="marker"></div>
+      </li>
+    </ul>
+  </main>
+  <div class="attribution">
+    Challenge by
+
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/edusantsouza" target="_blank">Eduardo Sant</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
