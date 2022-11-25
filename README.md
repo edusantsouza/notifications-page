@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC/hub/notifications-page-solution-CHE-dpkDPh)
+- Live Site URL: [Landing Page - Notifications Page](https://notifications-page-iota.vercel.app/)
 
 ## My process
 
