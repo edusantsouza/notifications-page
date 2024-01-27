@@ -1,4 +1,4 @@
-# Frontend Mentor - Notifications page 
+# Frontend Mentor - Notifications page solution
 
 This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC/hub/notifications-page-solution-CHE-dpkDPh)
-- Live Site URL: [Landing Page - Notifications Page](https://notifications-page-iota.vercel.app/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 

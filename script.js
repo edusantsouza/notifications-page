@@ -19,13 +19,13 @@
   });
 
   function removeUnreadAll() {
-    newArr.forEach((item) => {
+    listItems.forEach((item) => {
       if (item.classList.contains("unread")) {
         item.classList.remove("unread");
-        notificationTotal.innerHTML = 0;
+        notificationTotal.classList.add("visible");
+        markAll.classList.add("empty_notifications");
       }
     });
   }
-  // listItems.addEventListener("click", removeUnread);
   markAll.addEventListener("click", removeUnreadAll);
 })();
